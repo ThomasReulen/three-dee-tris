@@ -1,0 +1,71 @@
+body {
+    background-color:#000000;
+}
+.wrapper {
+    width:1200px;
+}
+
+.left {
+    display:inline;
+    float:left;
+    padding-left:180px;
+}
+
+
+.right {
+    display:inline;
+    float:left;
+}
+
+.infoStage {
+position: absolute;
+left: 20px;
+top: 20px;
+width:150px;
+background: #0000aa;
+opacity: 1;
+border:1px solid white;
+font-family:Courier;
+color:white;
+
+}
+
+.infoStage h1 {
+    font-size:20px;
+    font-weight:bold;
+    padding:0px;
+    margin:5px;
+}
+
+.infoStage h2 {
+    font-size:18px;
+    font-weight:bold;
+    padding:0px;
+    margin:5px;
+}
+
+.infoStage p {
+    font-size:18px;
+    padding:0px;
+    margin:5px;
+}
+
+table {
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    margin-left:25px;
+
+}
+
+td {
+    font-size:8px;
+    border:1px solid black;
+    width:15px;
+    height:15px;
+}
+td.active {
+    background-color:orange;
+    font-size:10px;
+    font-weight:bold;
+}

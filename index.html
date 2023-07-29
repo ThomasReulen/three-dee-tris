@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Own Project</title>
+
+    <link rel="stylesheet" href="css/base.css"></link>
+
+    <script src="/assets/js/lib/three.min.js"></script>
+
+    <!--- <script src="/assets/js/lib/Projector.js"></script> --->
+    
+    <script src="/assets/js/lib/canvasRenderer.js"></script>
+    <script src="/assets/js/lib/jquery-1.11.1.min.js"></script>
+
+    <script src="/assets/js/fonts/helvetiker_regular.typeface.js"></script>
+
+    <script src="src/core.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/settings.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="infoStage" id="infodialog">
+    </div>
+    <div class="left" id="gameStage"><!-- gets filled by game engine --></div>
+
+</div>
+
+
+
+<script>
+
+$(document).ready(function() { 
+
+    threeDeeTris = new GAME.Engine();
+    threeDeeTris.init('gameStage');
+
+
+});
+
+
+</script>
+</body>
+</html>
