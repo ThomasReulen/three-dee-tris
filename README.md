@@ -9,6 +9,10 @@ For now I just uploaded it "as is", will refactor this in the future and update 
 
 ![screenshot](./assets/img/screenshot.jpg)
 
+## Play 
+
+Go [here](https://thomasreulen.github.io/three-dee-tris/)
+
 ## Note
 
 there is no menu or something yet, you will see a blank floor rotating. Hit "Esc" to start playing, reload page to start fresh.
